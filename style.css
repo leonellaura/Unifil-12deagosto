@@ -1,4 +1,51 @@
+*{
+    font-family: sans-serif;
+    margin:0;
+    padding: 0;
+}
+
 .cabeçalho{
     display: flex;
     justify-content: space-between;
-};
+}
+
+.cabeçalho-inicio{
+    display: flex;
+    gap: 16px;
+}
+
+.logotipo{
+    display: flex;
+}
+.logotipo-país{
+    font-size: 8px;
+    color: rgb(67,67,67);
+}
+.logotipo-icone{
+    color: red;
+}
+
+.cabeçalho-final{
+    background-color: green;
+}
+.search{
+    display: flex;
+}
+.search-input{
+    border: 1px solid gray;
+    outline: none;
+    height: 25px;
+    width: 300px;
+    border-radius: 16px 0 0 16px;
+}
+.search-button{
+    width: 40px;
+    height: 27px;
+    border-radius: 0 16px 16px 0;
+}
+.microphone{
+    height: 30px;
+    width: 30px;
+    border: 1px solid gray;
+}
+
