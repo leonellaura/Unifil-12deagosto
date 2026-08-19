@@ -1,51 +1,78 @@
-*{
+* {
     font-family: sans-serif;
-    margin:0;
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-.cabeçalho{
+.cabeçalho {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+    zoom: 150%;
 }
-
-.cabeçalho-inicio{
+.cabeçalho-início {
     display: flex;
     gap: 16px;
+    align-items: center;
 }
+.cabeçalho-centro {
+    display: flex;
+    gap: 8px;
+    background-color: bisque;
 
-.logotipo{
+}
+.cabeçalho-final {
+    display: flex;
+    background-color: white;
+    gap: 10px;
+}
+.search {
     display: flex;
 }
-.logotipo-país{
-    font-size: 8px;
-    color: rgb(67,67,67);
-}
-.logotipo-icone{
-    color: red;
-}
-
-.cabeçalho-final{
-    background-color: green;
-}
-.search{
-    display: flex;
-}
-.search-input{
+.search-input {
     border: 1px solid gray;
     outline: none;
-    height: 25px;
+    height: 32px;
     width: 300px;
     border-radius: 16px 0 0 16px;
 }
-.search-button{
-    width: 40px;
-    height: 27px;
-    border-radius: 0 16px 16px 0;
-}
-.microphone{
-    height: 30px;
-    width: 30px;
-    border: 1px solid gray;
-}
+.search-button {
+    width:50px;
+    height: 32px;
+    border-radius:0 16px 16px 0;
 
+}
+.microfone {
+    height: 32px;
+    width: 32px;
+    border: 1px solid gray;
+    border-radius: 50%;
+}
+.logotipo {
+    display: flex;
+    align-items: center;
+}
+.logotipo-ícone {
+    color: red;
+}
+.logotipo-nome{
+    font-weight: bold;
+}
+.logotipo-nome:hover{
+    background-color: beige;
+}
+.logotipo-país {
+    font-size: 9px;
+    color: rgb(71, 71, 71);
+}
+.logotipo-video{
+    border-radius: 50%;
+    background-color:rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    color: blue;
+}
+.logotipo-video:hover{
+    background-color: rgb(67,67,67);
+    color: white;
+}
